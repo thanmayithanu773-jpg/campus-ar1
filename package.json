@@ -1,0 +1,33 @@
+{
+  "name": "campus-ar-navigation",
+  "version": "1.0.0",
+  "description": "Production-style college campus navigation web application combining GPS, interactive Leaflet maps, live camera-based Three.js Augmented Reality, indoor pathway graph navigation, and administrator dashboard.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed/locations.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "campus-navigation",
+    "augmented-reality",
+    "threejs",
+    "leaflet",
+    "indoor-navigation",
+    "dijkstra",
+    "webar",
+    "express",
+    "mongodb"
+  ],
+  "author": "BCA Final Year Project Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "socket.io": "^4.8.4"
+  }
+}
